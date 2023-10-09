@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+ body {
+    background-color: #a896f8;
+ }
+ .container {
+    background-color: #fff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33,61, 0.2);
+    
+ }
+ .search_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .search_box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+
+ }
+ .search_box button {
+   padding: 15px 0;
+   width: calc(100% - 75%);
+   background-color: #ae9cff;
+   border: none;
+   outline: none;
+   color: #fff;
+   border-radius: 5px;
+
+ }
+ .result {
+   position: relative;
+ }
+ .result h3 {
+   font-size: 30px;
+   color: #1f194c;
+   text-transform: capitalize;
+ }
+ .result .word {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+ }
+ .result button {
+   background-color: transparent;
+   color: #9f90e4;
+   border: none;
+   outline: none;
+   font-size: 18px;
+ }
+ .result .details {
+   display: flex;
+   gap: 10px;
+   color: #beb6d4;
+   margin: 10px 0 20px 0;
+   font-size: 14px;
+   
+ }
+ .word-meaning {
+   color: #575a7b;
+ }
+ .word-example {
+   color: #575a7b;
+   font-style: italic;
+   border-left: 5px solid #ae9cff;
+   padding-left: 20px;
+   margin-top: 30px;
+ }
